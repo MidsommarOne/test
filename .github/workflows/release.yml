@@ -24,7 +24,7 @@ jobs:
       - name: Run The Test
         run: make check
       - name: Run The Program
-        run: make NUM=154 run
+        run: make NUM=155 run
       - name: Create Release
         uses: marvinpinto/action-automatic-releases@v1.1.1
         with:
